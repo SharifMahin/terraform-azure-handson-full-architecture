@@ -1,0 +1,8 @@
+resource_group_name = "rg-<project>-<environment>-<region>"
+location            = "japaneast"
+
+tags = {
+  environment = "dev"
+  project     = "<project-name>"
+  owner       = "<your-name>"
+}
