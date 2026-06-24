@@ -1,0 +1,8 @@
+resource_group_name = "rg-<project>-<region>"
+identity_name       = "id-<project>-<region>"
+
+tags = {
+  environment = "dev"
+  project     = "<project-name>"
+  owner       = "<your-name>"
+}
