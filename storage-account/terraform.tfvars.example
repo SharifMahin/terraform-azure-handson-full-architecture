@@ -1,0 +1,11 @@
+resource_group_name  = "rg-<project>-<region>"
+storage_account_name = "stg<project><region>"
+account_tier         = "Standard"
+replication_type     = "LRS"
+container_name       = "cnt-<project>-<region>"
+
+tags = {
+  environment = "dev"
+  project     = "<project-name>"
+  owner       = "<your-name>"
+}
