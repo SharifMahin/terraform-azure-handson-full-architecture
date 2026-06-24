@@ -1,0 +1,16 @@
+# postfix        = "<project>-<region>"
+resource_group_name = "rg-<project>-<region>"
+vnet_name           = "vnet-<project>-<region>"
+subnet_name         = "snet-<project>-<region>"
+public_ip_name      = "pip-<project>-<region>"
+nic_name            = "nic-<project>-<region>"
+vm_name             = "vm<project><region>"   # 1-15 characters, no hyphens
+vm_size             = "Standard_B1s"          # Standard_D2s_v3 for better performance
+admin_username      = "<your-admin-username>"
+admin_password      = "<your-secure-password>"
+
+tags = {
+  environment = "dev"
+  project     = "<project-name>"
+  owner       = "<your-name>"
+}
