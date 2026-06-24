@@ -1,0 +1,11 @@
+resource_group_name = "rg-<project>-<region>"
+location            = "japaneast"
+nsg_name            = "nsg-<project>-<region>"
+vnet_name           = "vnet-<project>-<region>"
+subnet_name         = "snet-<project>-<region>"
+
+tags = {
+  environment = "dev"
+  project     = "<project-name>"
+  owner       = "<your-name>"
+}
