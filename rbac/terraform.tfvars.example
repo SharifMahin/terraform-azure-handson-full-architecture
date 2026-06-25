@@ -1,0 +1,3 @@
+resource_group_name  = "rg-<project>-<region>"
+identity_name        = "id-<project>-<region>"
+role_definition_name = "Contributor"  # Reader / Contributor / Owner
