@@ -1,0 +1,13 @@
+resource_group_name     = "rg-<project>-<region>"
+key_vault_name          = "kv-<project>-<region>"
+identity_name           = "id-<project>-<region>"
+vm_username_secret_name = "vm-admin-username"
+vm_username             = "<your-admin-username>"
+vm_password_secret_name = "vm-admin-password"
+vm_password             = "<your-secure-password>"
+
+tags = {
+  environment = "dev"
+  project     = "<project-name>"
+  owner       = "<your-name>"
+}
