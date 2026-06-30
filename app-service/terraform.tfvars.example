@@ -1,0 +1,12 @@
+resource_group_name   = "rg-<project>-<region>"
+app_service_plan_name = "asp-<project>-<region>"
+os_type               = "Linux"
+sku_name              = "B1"        # F1 free / B1 basic / P1v2 production
+app_service_name      = "app-<project>-<region>"   # globally unique
+environment           = "dev"
+
+tags = {
+  environment = "dev"
+  project     = "<project-name>"
+  owner       = "<your-name>"
+}
