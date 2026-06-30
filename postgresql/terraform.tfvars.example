@@ -1,0 +1,14 @@
+resource_group_name    = "rg-<project>-<region>"
+postgresql_server_name = "psql-<project>-<region>"   # globally unique
+postgresql_version     = "16"
+admin_username          = "<admin-username>"
+admin_password          = "<secure-password>"
+storage_mb              = 32768
+sku_name                = "B_Standard_B1ms"    # cheapest burstable tier
+database_name           = "<database-name>"
+
+tags = {
+  environment = "dev"
+  project     = "<project-name>"
+  owner       = "<your-name>"
+}
